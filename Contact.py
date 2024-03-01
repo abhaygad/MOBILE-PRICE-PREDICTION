@@ -2,7 +2,7 @@ import streamlit as st
 
 def contact():
     st.title("ABOUT US")
-    image="PRAJWAL_PHOTO(C).jpg"
+    image="DATA/PRAJWAL_PHOTO(C).jpg"
     st.image(image,width=100)
     st.write("Developed : Prajwal Purushotham Varekar")
     st.write("Gmail: Varekar@gmail.com")

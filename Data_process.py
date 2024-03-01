@@ -3,7 +3,7 @@ import pandas as pd
 
 
 def data_read():
-    data = pd.read_csv('DATA-PHONE.csv')
+    data = pd.read_csv('DATA/DATA-PHONE.csv')
     minimun_temp = data.min(axis=0)
     min_x = minimun_temp[1:7:]
     GENERAL_min, HARDWARE_min, CAMERA_min, DISPLAY_min, BATTERY_min, AUDIO_min = min_x
@@ -18,7 +18,7 @@ def data_read():
     return data
 
 def data_name():
-    data = pd.read_csv('DATA-PHONE.csv')
+    data = pd.read_csv('DATA/DATA-PHONE.csv')
     lables = data["NAME"]
     return lables
 

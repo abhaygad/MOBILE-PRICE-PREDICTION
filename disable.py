@@ -1,7 +1,7 @@
 from bs4 import BeautifulSoup as Soup
 import pandas as pd
 
-data = pd.read_csv('DATA-PHONE.csv')
+data = pd.read_csv('DATA/DATA-PHONE.csv')
 
 x=data["NAME"]
 for i in x:
@@ -11,7 +11,7 @@ for i in x:
     title = soup.find('meta')
     meta = soup.new_tag('link')
     meta['rel'] = "stylesheet"
-    meta['href'] = "styles_new_add.css"
+    meta['href'] = "DATA/styles_new_add.css"
     title.insert_after(meta)
 
     print (soup)

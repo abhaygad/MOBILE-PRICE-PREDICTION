@@ -2,6 +2,11 @@ div.main-hdr.stcky {
     visibility: hidden;
     max-height: 0;
   }
+div.stDeployButton{
+    visibility: hidden;
+    max-height: 0;
+  
+}
 div.nhdr-spc{
     max-height: 0;
 }

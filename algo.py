@@ -44,9 +44,8 @@ def algori():
 
             for i in range(No_Recemend):
                 st.write(str(short_output[i]))
-                #st.button('More info',key="key"+str(i),on_click=webbrowser.open_new_tab('C:/Users/varek/OneDrive/Desktop/Moblie_web/phone_source/' + str(short_output[i]) +'.html'))
-                webbrowser.open_new_tab(("https://pricebaba.com/mobile/" + str(short_output[i])
-                    ).replace(" ","-"))
+                st.button('More info',key="key"+str(i),on_click=webbrowser.open_new_tab('phone_source/' + str(short_output[i]) +'.html'))
+                #webbrowser.open_new_tab(("https://pricebaba.com/mobile/" + str(short_output[i])).replace(" ","-"))
 
 
 

@@ -12,5 +12,5 @@ def image_open():
             st.button('More info', key="More_info"+i)
 
         except :
-            st.title("asgdjhgfeadjagh")
+            st.title("Image not found")
             cat_image.append('phone_image/download.jpg')

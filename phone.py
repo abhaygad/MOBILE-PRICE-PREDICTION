@@ -16,7 +16,7 @@ def data ():
             st.form_submit_button(label="Reset images and layout")
 
 
-    st.title("LIST OF MOBLIE PHONE :phone:")
+    st.title("LIST OF MOBILE PHONE :phone:")
     st.caption(
         "You can display the image in full size by hovering it and clicking the double arrow"
     )

@@ -19,11 +19,11 @@ def option():
     return opt
 
 def algori():
-    st.title("MOBLIE RECOMMANDATION")
+    st.title("MOBILE RECOMMANDATION")
 
     No_Recemend = st.slider('Enter the number of phone to be recommended: ', 1, 10, 2)
 
-    st.write("Recommending {} moblie Phone for You".format(No_Recemend))
+    st.write("Recommending {} mobile Phone for You".format(No_Recemend))
 
     prize = st.number_input('Enter thr prize limit', min_value=15000, key="prize")
 

@@ -19,7 +19,7 @@ with st.sidebar:
 
 if selected == "HOME":
     home.home()
-if selected == "RECOMMANDATION":
+if selected == "Recommendation":
     algo.algori()
 if selected == "PHONE":
     phone.data()

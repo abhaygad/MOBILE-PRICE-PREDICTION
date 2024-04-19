@@ -7,7 +7,7 @@ def contact():
     st.write("Developed : Prajwal Purushotham Varekar")
     st.write("Gmail: Varekar@gmail.com")
 
-    st.write("Data Analyst : Abhay S Gad")
+    st.write("Developed : Abhay S Gad")
     st.write("Gmail: abhaygad977@gmail.com")
 
 

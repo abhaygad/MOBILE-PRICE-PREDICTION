@@ -13,7 +13,7 @@ footer {visibility: hidden;}
 </style> """, unsafe_allow_html=True)
 
 with st.sidebar:
-    selected = option_menu("Main Menu", ["HOME", 'RECOMMANDATION','PHONE','About Us'],
+    selected = option_menu("Main Menu", ["HOME", 'Recommendation','PHONE','About Us'],
         icons=['house', 'gear','phone','person-rolodex'], menu_icon="cast", default_index=0)
 
 

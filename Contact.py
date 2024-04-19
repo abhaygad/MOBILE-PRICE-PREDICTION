@@ -7,11 +7,9 @@ def contact():
     st.write("Developed : Prajwal Purushotham Varekar")
     st.write("Gmail: Varekar@gmail.com")
 
-    st.write("Testing : Abhay S Gad")
+    st.write("Data Analyst : Abhay S Gad")
     st.write("Gmail: abhaygad977@gmail.com")
 
-    st.write("Data Analyst : Akshay C")
-    st.write("Gmail: akshayc612001@gmail.com")
 
     st.text_input('Report issue')
     if st.button('Submit') :

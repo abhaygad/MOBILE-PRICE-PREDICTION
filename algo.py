@@ -19,7 +19,7 @@ def option():
     return opt
 
 def algori():
-    st.title("MOBILE RECOMMANDATION")
+    st.title("MOBILE RECOMMENDATION")
 
     No_Recemend = st.slider('Enter the number of phone to be recommended: ', 1, 10, 2)
 

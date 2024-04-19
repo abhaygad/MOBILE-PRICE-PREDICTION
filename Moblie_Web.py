@@ -13,13 +13,13 @@ footer {visibility: hidden;}
 </style> """, unsafe_allow_html=True)
 
 with st.sidebar:
-    selected = option_menu("Main Menu", ["HOME", 'Recommendation','PHONE','About Us'],
+    selected = option_menu("Main Menu", ["HOME", 'RECOMMENDATION','PHONE','About Us'],
         icons=['house', 'gear','phone','person-rolodex'], menu_icon="cast", default_index=0)
 
 
 if selected == "HOME":
     home.home()
-if selected == "Recommendation":
+if selected == "RECOMMENDATION":
     algo.algori()
 if selected == "PHONE":
     phone.data()
